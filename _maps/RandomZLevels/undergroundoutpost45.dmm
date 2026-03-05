@@ -437,6 +437,7 @@
 /area/awaymission/undergroundoutpost45/central)
 "ci" = (
 /obj/effect/decal/cleanable/blood/gibs/limb,
+/mob/living/carbon/alien/adult/drone,
 /turf/open/misc/asteroid/plasma,
 /area/awaymission/undergroundoutpost45/caves)
 "cm" = (
@@ -6804,6 +6805,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/awaymission/undergroundoutpost45/engineering)
+"Fk" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/mob/living/carbon/alien/adult/drone,
+/turf/open/misc/asteroid/plasma,
+/area/awaymission/undergroundoutpost45/caves)
 "Fw" = (
 /obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/all_access,
@@ -7000,6 +7006,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/awaymission/undergroundoutpost45/research)
+"Jq" = (
+/mob/living/carbon/alien/adult/drone,
+/turf/open/misc/asteroid/plasma,
+/area/awaymission/undergroundoutpost45/caves)
 "Jv" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/cafeteria{
@@ -27855,7 +27865,7 @@ ad
 ad
 zq
 Gn
-zq
+Jq
 Tr
 ad
 ad
@@ -28361,7 +28371,7 @@ ad
 ad
 ad
 Cd
-zq
+Jq
 BQ
 ZD
 ad
@@ -29144,7 +29154,7 @@ Lk
 Tr
 zO
 XQ
-BQ
+Fk
 zq
 zb
 ad
@@ -29395,7 +29405,7 @@ ad
 Tr
 zq
 zq
-zq
+Jq
 Gn
 zq
 zq

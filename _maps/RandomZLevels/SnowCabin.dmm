@@ -4708,6 +4708,10 @@
 	},
 /turf/open/floor/plating/snowed,
 /area/awaymission/cabin/snowforest)
+"OA" = (
+/mob/living/basic/mining/legion/snow,
+/turf/open/misc/asteroid/snow/snow_cabin,
+/area/awaymission/cabin/caves)
 "OF" = (
 /obj/structure/table/wood,
 /obj/structure/sign/warning/no_smoking/circle{
@@ -4943,6 +4947,10 @@
 	id = "GETMEOUTOFHEREYOUFUCKS";
 	name = "\improper Return Rune"
 	},
+/turf/open/misc/asteroid/snow/snow_cabin,
+/area/awaymission/cabin/caves)
+"RR" = (
+/mob/living/basic/mining/legion/monkey/snow,
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
 "RU" = (
@@ -5296,6 +5304,16 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/cabin)
+"Vl" = (
+/obj/effect/decal/cleanable/glitter{
+	desc = "It looks like fancy glitter to me.";
+	name = "icy wind";
+	color = "4040ff"
+	},
+/obj/effect/decal/cleanable/generic,
+/mob/living/basic/mining/legion/monkey/snow,
+/turf/open/misc/asteroid/snow/snow_cabin,
+/area/awaymission/cabin/caves)
 "VA" = (
 /obj/effect/light_emitter{
 	set_cap = 3;
@@ -9697,7 +9715,7 @@ PV
 Oe
 Oe
 Oe
-Oe
+BR
 mP
 gx
 gx
@@ -11495,7 +11513,7 @@ PV
 PV
 PV
 Oe
-Oe
+BR
 ms
 Oe
 ms
@@ -12010,7 +12028,7 @@ PV
 PV
 Oe
 Oe
-Oe
+BR
 ms
 Oe
 Oe
@@ -12523,7 +12541,7 @@ PV
 Oe
 Oe
 ms
-Oe
+BR
 ms
 Oe
 Oe
@@ -12771,7 +12789,7 @@ ab
 ab
 gx
 ms
-Oe
+BR
 Oe
 Oe
 PV
@@ -12783,7 +12801,7 @@ ms
 Oe
 Oe
 Oe
-Oe
+RR
 Oe
 Oe
 ms
@@ -13033,7 +13051,7 @@ Oe
 Oe
 Oe
 Oe
-Oe
+BR
 ms
 ms
 mP
@@ -14842,7 +14860,7 @@ gx
 gx
 mP
 Oe
-Oe
+OA
 Oe
 Oe
 mP
@@ -15615,7 +15633,7 @@ mP
 BR
 Oe
 Oe
-Oe
+BR
 Oe
 ms
 mP
@@ -16130,7 +16148,7 @@ gx
 ms
 ms
 Oe
-Oe
+RR
 Oe
 ms
 ab
@@ -46381,7 +46399,7 @@ gx
 RN
 Oe
 Oe
-Oe
+RR
 Oe
 Oe
 Oe
@@ -50484,7 +50502,7 @@ gx
 Oe
 gx
 Oe
-Oe
+RR
 gx
 gx
 gx
@@ -52551,7 +52569,7 @@ gx
 gx
 Lj
 tC
-Dw
+Vl
 tC
 WH
 gx
@@ -58246,7 +58264,7 @@ im
 ii
 ii
 ii
-im
+iq
 im
 kF
 iq
@@ -58758,7 +58776,7 @@ ii
 im
 kF
 kF
-im
+iq
 im
 im
 im
@@ -59257,7 +59275,7 @@ ip
 im
 im
 im
-im
+iq
 im
 ir
 ir
@@ -60036,7 +60054,7 @@ im
 im
 im
 im
-im
+iq
 im
 im
 nL
@@ -60045,7 +60063,7 @@ im
 nL
 im
 im
-im
+iq
 im
 kF
 im
@@ -64152,8 +64170,8 @@ gx
 gx
 gx
 ii
-im
-im
+iq
+iq
 ii
 gx
 gx

@@ -246,6 +246,11 @@
 /obj/structure/bedsheetbin,
 /turf/open/misc/beach/sand,
 /area/awaymission/mothership_astrum/deck5)
+"eB" = (
+/obj/structure/alien/weeds,
+/mob/living/basic/alien/queen/large,
+/turf/open/floor/plating/abductor2,
+/area/awaymission/mothership_astrum/deck4)
 "eE" = (
 /mob/living/basic/abductor/ranged/agent,
 /turf/open/floor/plating/abductor2,
@@ -344,6 +349,11 @@
 /area/awaymission/mothership_astrum/halls)
 "gi" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
+/mob/living/basic/trooper/syndicate/ranged/shotgun,
+/turf/open/floor/wood,
+/area/awaymission/mothership_astrum/deck1)
+"gu" = (
+/mob/living/basic/trooper/syndicate/melee/sword/anthro,
 /turf/open/floor/wood,
 /area/awaymission/mothership_astrum/deck1)
 "gw" = (
@@ -1562,11 +1572,29 @@
 /obj/item/gun/energy/alien/astrum,
 /turf/open/floor/plating/abductor2,
 /area/awaymission/mothership_astrum/halls)
+"Ad" = (
+/mob/living/basic/creature{
+	desc = "Awh its so sm-OH GOD WHAT THE FUCK.";
+	faction = list("Abductor");
+	health = 25;
+	maxHealth = 25;
+	name = "hatchling";
+	current_size = 0.85
+	},
+/turf/open/floor/plating/abductor2,
+/area/awaymission/mothership_astrum/halls)
 "As" = (
 /obj/structure/table/abductor,
 /obj/effect/spawner/random/exotic/syndie,
 /turf/open/floor/plating/abductor,
 /area/awaymission/mothership_astrum/halls)
+"Av" = (
+/mob/living/basic/trooper/pirate/melee{
+	faction = list("Abductor");
+	loot = list(/obj/effect/mob_spawn/corpse/human/pirate)
+	},
+/turf/open/misc/beach/coast/corner,
+/area/awaymission/mothership_astrum/deck5)
 "Ay" = (
 /obj/item/ammo_casing/c38,
 /turf/open/floor/wood,
@@ -2041,6 +2069,17 @@
 /obj/structure/window/spawner/directional/west,
 /obj/structure/table/abductor,
 /obj/item/organ/cyberimp/mouth/breathing_tube,
+/turf/open/floor/mineral/abductor,
+/area/awaymission/mothership_astrum/halls)
+"FU" = (
+/mob/living/basic/creature{
+	desc = "Awh its so sm-OH GOD WHAT THE FUCK.";
+	faction = list("Abductor");
+	health = 25;
+	maxHealth = 25;
+	name = "hatchling";
+	current_size = 0.85
+	},
 /turf/open/floor/mineral/abductor,
 /area/awaymission/mothership_astrum/halls)
 "FV" = (
@@ -21082,7 +21121,7 @@ ES
 ES
 ES
 ES
-ES
+wO
 ES
 ES
 Jo
@@ -22100,7 +22139,7 @@ ee
 xU
 XE
 Be
-xU
+KV
 xU
 ED
 FL
@@ -28985,7 +29024,7 @@ ee
 ee
 ee
 bV
-Vh
+SJ
 bV
 bV
 ee
@@ -29750,7 +29789,7 @@ ee
 Tu
 ee
 ee
-bV
+FU
 bV
 ee
 ee
@@ -31036,7 +31075,7 @@ ee
 Xa
 bV
 Vh
-Vh
+BU
 Vh
 Vh
 Vh
@@ -31298,7 +31337,7 @@ Vh
 Vh
 Vh
 Vh
-Vh
+eE
 Vh
 bV
 bE
@@ -33453,7 +33492,7 @@ WZ
 Xd
 Tn
 wo
-wo
+gu
 wo
 Xd
 WZ
@@ -37962,7 +38001,7 @@ Tu
 ee
 ee
 Zp
-Vh
+Ad
 Vh
 Vh
 Zp
@@ -38753,7 +38792,7 @@ ep
 dj
 dj
 dj
-db
+eB
 hk
 fz
 dj
@@ -40333,7 +40372,7 @@ ee
 ee
 bV
 bV
-Vh
+Ma
 Vh
 bV
 bV
@@ -44154,7 +44193,7 @@ bV
 bV
 bV
 bV
-bV
+FU
 bV
 bV
 bV
@@ -44203,7 +44242,7 @@ En
 En
 fF
 En
-En
+CU
 En
 En
 En
@@ -47350,6 +47389,7 @@ Tu
 Tu
 ee
 ee
+bE
 bV
 bV
 bV
@@ -47360,8 +47400,7 @@ bV
 bV
 bV
 bV
-bV
-bV
+bE
 ee
 ee
 Tu
@@ -47754,7 +47793,7 @@ bV
 bV
 Dk
 Fy
-bV
+CL
 bV
 hy
 ee
@@ -47804,7 +47843,7 @@ zc
 yC
 En
 En
-tI
+Av
 sW
 sW
 sW
@@ -48894,14 +48933,14 @@ Tu
 ee
 ee
 Vh
-Vh
+HS
 bV
 bV
 Vh
 bV
 bV
 bV
-Vh
+HS
 Vh
 ee
 ee

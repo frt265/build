@@ -2980,6 +2980,13 @@
 /obj/machinery/duct,
 /turf/open/floor/plating,
 /area/awaymission/moonoutpost19/arrivals)
+"sR" = (
+/obj/structure/alien/weeds/node,
+/mob/living/basic/alien/sentinel,
+/turf/open/misc/asteroid/moon{
+	initial_gas_mix = "co2=48.7;n2=13.2;o2=32.4;TEMP=251"
+	},
+/area/awaymission/moonoutpost19/hive)
 "sU" = (
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/external/ruin{
@@ -4331,6 +4338,18 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/moonoutpost19/syndicate)
+"Cd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/mob/living/basic/alien,
+/turf/open/floor/iron{
+	initial_gas_mix = "co2=48.7;n2=13.2;o2=32.4;TEMP=251";
+	temperature = 251
+	},
+/area/awaymission/moonoutpost19/syndicate)
 "Ce" = (
 /obj/structure/alien/weeds,
 /obj/effect/turf_decal/tile/purple,
@@ -5546,6 +5565,11 @@
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
+/area/awaymission/moonoutpost19/research)
+"KS" = (
+/obj/structure/alien/weeds,
+/mob/living/basic/alien/queen/large,
+/turf/open/floor/engine,
 /area/awaymission/moonoutpost19/research)
 "Lc" = (
 /obj/machinery/conveyor{
@@ -28882,7 +28906,7 @@ um
 bJ
 fY
 fY
-fY
+Ha
 fY
 fY
 fY
@@ -29415,7 +29439,7 @@ um
 qA
 fY
 XO
-fY
+nz
 bJ
 um
 ac
@@ -30940,7 +30964,7 @@ ac
 um
 um
 fY
-XO
+sR
 fY
 fY
 fY
@@ -32738,7 +32762,7 @@ ac
 um
 um
 um
-fY
+Ha
 fY
 um
 um
@@ -32751,7 +32775,7 @@ um
 fY
 fY
 fY
-fY
+Ha
 fY
 um
 um
@@ -33774,7 +33798,7 @@ bl
 bl
 bl
 um
-fY
+Ha
 um
 um
 ac
@@ -34546,7 +34570,7 @@ bl
 bl
 bl
 um
-fY
+Ha
 um
 ac
 ac
@@ -36079,7 +36103,7 @@ um
 qA
 UI
 fY
-fY
+nz
 fY
 fY
 fY
@@ -40455,7 +40479,7 @@ mS
 GW
 xC
 ab
-BW
+Cd
 HE
 lj
 BW
@@ -40561,7 +40585,7 @@ eq
 eF
 eQ
 eH
-en
+KS
 fp
 eq
 en

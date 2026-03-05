@@ -4188,6 +4188,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/awaymission/snowdin/post)
+"pt" = (
+/mob/living/basic/trooper/syndicate/ranged/smg/anthro,
+/turf/open/misc/asteroid/snow{
+	floor_variance = 0;
+	icon_state = "snow_dug";
+	slowdown = 1
+	},
+/area/awaymission/snowdin/cave)
 "pu" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -5016,7 +5024,10 @@
 /turf/open/floor/engine/cult,
 /area/awaymission/snowdin/post/cavern2)
 "st" = (
-/mob/living/basic/skeleton/ice,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/mob/living/basic/trooper/syndicate/melee,
 /turf/open/misc/asteroid/snow{
 	floor_variance = 0;
 	icon_state = "snow_dug";
@@ -5241,6 +5252,16 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/snowdin,
+/area/awaymission/snowdin/outside)
+"tn" = (
+/mob/living/basic/bear/snow{
+	desc = "It's a polar bear, in space, but not actually in space. It's actually on a planet. This is a planet.";
+	melee_damage_lower = 10;
+	melee_damage_upper = 20;
+	name = "fat space polar bear";
+	speed = 3
+	},
+/turf/open/floor/plating/snowed,
 /area/awaymission/snowdin/outside)
 "tp" = (
 /turf/closed/wall/mineral/snow,
@@ -5774,6 +5795,13 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/misc/asteroid/snow,
 /area/awaymission/snowdin/cave)
+"wt" = (
+/obj/structure/spawner/nether{
+	max_mobs = 4;
+	name = "weak netherworld link"
+	},
+/turf/open/misc/ice/smooth,
+/area/awaymission/snowdin/cave)
 "wD" = (
 /turf/closed/wall,
 /area/awaymission/snowdin/post/mining_dock)
@@ -6113,12 +6141,7 @@
 /turf/open/floor/plating/snowed,
 /area/awaymission/snowdin/cave)
 "xU" = (
-/obj/structure/bed{
-	dir = 4
-	},
-/mob/living/basic/skeleton/ice{
-	name = "Privateer Jones"
-	},
+/mob/living/basic/trooper/syndicate/ranged/smg/pilot,
 /turf/open/misc/asteroid/snow{
 	floor_variance = 0;
 	icon_state = "snow_dug";
@@ -6280,6 +6303,10 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
+	},
+/obj/structure/spawner/nether{
+	max_mobs = 4;
+	name = "weak netherworld link"
 	},
 /turf/open/floor/iron,
 /area/awaymission/snowdin/post/mining_dock)
@@ -6625,6 +6652,15 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/snowdin/igloo)
+"zR" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/mob/living/basic/netguardian{
+	name = "guardian prime"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/awaymission/snowdin/cave)
 "zS" = (
 /obj/machinery/door/airlock/external/glass/ruin,
 /obj/structure/fans/tiny,
@@ -6907,6 +6943,10 @@
 /obj/item/stack/sheet/iron,
 /turf/open/floor/plating/snowed/smoothed,
 /area/awaymission/snowdin/post/minipost)
+"AS" = (
+/mob/living/basic/trooper/syndicate/melee/sword/anthro,
+/turf/open/misc/asteroid/snow,
+/area/awaymission/snowdin/cave)
 "AU" = (
 /obj/effect/light_emitter{
 	name = "outdoor light";
@@ -7713,6 +7753,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/awaymission/snowdin/cave)
+"Ey" = (
+/mob/living/basic/blankbody,
+/mob/living/basic/blankbody,
+/turf/open/misc/ice/smooth,
+/area/awaymission/snowdin/cave)
 "Ez" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
@@ -7860,6 +7905,10 @@
 	},
 /turf/open/floor/plating/snowed,
 /area/awaymission/snowdin/outside)
+"Fa" = (
+/mob/living/basic/bear/snow,
+/turf/open/misc/ice/smooth,
+/area/awaymission/snowdin/cave)
 "Fg" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/loading_area,
@@ -8246,6 +8295,14 @@
 /obj/machinery/portable_atmospherics/canister,
 /turf/open/floor/plating/snowed/smoothed,
 /area/awaymission/snowdin/outside)
+"Hr" = (
+/mob/living/basic/trooper/syndicate/melee/sword/anthro,
+/turf/open/misc/asteroid/snow{
+	floor_variance = 0;
+	icon_state = "snow_dug";
+	slowdown = 1
+	},
+/area/awaymission/snowdin/cave)
 "Hs" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron,
@@ -8309,6 +8366,13 @@
 	set_luminosity = 6
 	},
 /turf/open/floor/plating/snowed/smoothed,
+/area/awaymission/snowdin/outside)
+"HJ" = (
+/obj/structure/spawner/nether{
+	max_mobs = 4;
+	name = "weak netherworld link"
+	},
+/turf/open/misc/asteroid/snow,
 /area/awaymission/snowdin/outside)
 "HK" = (
 /obj/effect/turf_decal/stripes/line{
@@ -8426,6 +8490,10 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/snowdin/post/mining_main/mechbay)
+"Ip" = (
+/mob/living/basic/migo,
+/turf/open/floor/plating,
+/area/awaymission/snowdin/post/mining_main/mechbay)
 "Ir" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/iron/grimy,
@@ -8467,6 +8535,7 @@
 /area/awaymission/snowdin/post/mining_main/robotics)
 "IB" = (
 /obj/structure/table,
+/obj/item/autosurgeon/syndicate/xray_eyes/single_use,
 /turf/open/floor/iron/white,
 /area/awaymission/snowdin/post/mining_main/robotics)
 "IC" = (
@@ -9041,6 +9110,18 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/snowdin/post/mining_main/mechbay)
+"LE" = (
+/mob/living/basic/trooper/syndicate/ranged/shotgun,
+/turf/open/misc/asteroid/snow,
+/area/awaymission/snowdin/cave)
+"LF" = (
+/mob/living/basic/trooper/syndicate/ranged/shotgun,
+/turf/open/misc/asteroid/snow{
+	floor_variance = 0;
+	icon_state = "snow_dug";
+	slowdown = 1
+	},
+/area/awaymission/snowdin/cave)
 "LI" = (
 /obj/effect/turf_decal/weather/snow,
 /obj/effect/decal/cleanable/blood/drip,
@@ -9154,6 +9235,13 @@
 	temperature = 120
 	},
 /area/awaymission/snowdin/cave/cavern)
+"Md" = (
+/obj/structure/spawner/nether{
+	max_mobs = 4;
+	name = "weak netherworld link"
+	},
+/turf/open/misc/asteroid/snow,
+/area/awaymission/snowdin/cave)
 "Mg" = (
 /obj/structure/table,
 /obj/item/clothing/neck/stethoscope,
@@ -10495,6 +10583,11 @@
 	slowdown = 1
 	},
 /area/awaymission/snowdin/outside)
+"Tl" = (
+/obj/structure/table,
+/obj/item/documents/syndicate,
+/turf/open/floor/iron/white,
+/area/awaymission/snowdin/post/mining_main/robotics)
 "Tm" = (
 /obj/effect/decal/cleanable/vomit/old,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -10546,6 +10639,13 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/engine/n2,
 /area/awaymission/snowdin/post/engineering)
+"TF" = (
+/obj/item/reagent_containers/cup/glass/bottle/beer{
+	list_reagents = null
+	},
+/obj/effect/mob_spawn/corpse/human/syndicatepilot,
+/turf/open/floor/iron/dark,
+/area/awaymission/snowdin/cave)
 "TI" = (
 /obj/structure/flora/grass/both/style_random,
 /turf/open/misc/asteroid/snow,
@@ -10927,6 +11027,7 @@
 "Wa" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
+/obj/item/crowbar/power/syndicate,
 /turf/open/floor/plating,
 /area/awaymission/snowdin/post/mining_dock)
 "We" = (
@@ -11072,6 +11173,10 @@
 "WN" = (
 /turf/open/misc/asteroid/snow/ice,
 /area/awaymission/snowdin/cave/cavern)
+"WP" = (
+/mob/living/basic/blankbody,
+/turf/open/misc/ice/smooth,
+/area/awaymission/snowdin/cave)
 "WR" = (
 /obj/item/shard,
 /turf/open/misc/ice/smooth,
@@ -11495,15 +11600,12 @@
 /turf/open/misc/asteroid/snow,
 /area/awaymission/snowdin/post/minipost)
 "Zv" = (
-/mob/living/basic/skeleton/ice{
-	name = "Captain Bones"
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 1
 	},
-/turf/open/misc/asteroid/snow{
-	floor_variance = 0;
-	icon_state = "snow_dug";
-	slowdown = 1
-	},
-/area/awaymission/snowdin/cave)
+/mob/living/basic/migo,
+/turf/open/floor/iron,
+/area/awaymission/snowdin/post/mining_main/mechbay)
 "Zw" = (
 /obj/structure/chair/stool/directional/south,
 /turf/open/misc/asteroid/snow{
@@ -15302,7 +15404,7 @@ QS
 QS
 QS
 QS
-QS
+Fa
 QS
 QS
 aj
@@ -16245,7 +16347,7 @@ hG
 aK
 Zy
 YE
-Zy
+Tf
 Zy
 Cu
 Zy
@@ -16811,7 +16913,7 @@ QS
 QS
 QS
 QS
-QS
+Fa
 QS
 aj
 ae
@@ -17080,7 +17182,7 @@ ae
 ae
 aj
 qS
-qS
+Md
 YC
 qS
 qS
@@ -17095,7 +17197,7 @@ YC
 aj
 qS
 qS
-qS
+Md
 aj
 aj
 aj
@@ -17281,7 +17383,7 @@ Zy
 Zy
 Cu
 Zy
-Zy
+Tf
 Zy
 Zy
 Zy
@@ -17345,7 +17447,7 @@ qS
 Vi
 qS
 qS
-qS
+Md
 qS
 Tw
 aj
@@ -19824,7 +19926,7 @@ ae
 Qj
 Zy
 Zy
-Zy
+Tf
 ZX
 aK
 aZ
@@ -20670,7 +20772,7 @@ dX
 te
 te
 te
-te
+tn
 te
 te
 te
@@ -22390,7 +22492,7 @@ ac
 ac
 ae
 Qj
-Zy
+Tf
 Zy
 Zy
 ar
@@ -23739,7 +23841,7 @@ Zy
 Zy
 Zy
 Zy
-Zy
+Tf
 Zy
 Zy
 Zy
@@ -26178,7 +26280,7 @@ wS
 aj
 aj
 qS
-qS
+Sa
 qS
 qS
 qS
@@ -26630,7 +26732,7 @@ wS
 wS
 an
 ii
-qS
+Sa
 wS
 wS
 yJ
@@ -27698,7 +27800,7 @@ VY
 ai
 wS
 aj
-QS
+wt
 QS
 qS
 qS
@@ -27940,7 +28042,7 @@ ij
 qS
 qS
 qS
-qS
+Sa
 QS
 QS
 QS
@@ -28829,7 +28931,7 @@ Zy
 Zy
 ZX
 Zy
-Zy
+Tf
 Zy
 Zy
 gN
@@ -29594,7 +29696,7 @@ ae
 Zy
 Zy
 TI
-Zy
+Tf
 Zy
 Zy
 ZX
@@ -32219,7 +32321,7 @@ Zy
 Zy
 Zy
 Zy
-Zy
+Tf
 Zy
 Zy
 Zy
@@ -32599,7 +32701,7 @@ Mq
 fe
 DH
 ka
-Ea
+TF
 PQ
 DH
 Eo
@@ -33884,7 +33986,7 @@ Dr
 DC
 DK
 DC
-DC
+zR
 DC
 Ej
 Eq
@@ -40162,8 +40264,8 @@ Zy
 TI
 Zy
 Zy
-Zy
-Zy
+Tf
+Tf
 TI
 TI
 Zy
@@ -42284,13 +42386,13 @@ XY
 wm
 ii
 qS
-Pb
+st
 VQ
 aj
 aj
 aj
 Fv
-RP
+xU
 RP
 aj
 aj
@@ -42787,10 +42889,10 @@ ae
 ae
 aj
 SF
-st
 RP
 RP
-xU
+RP
+FC
 aj
 aj
 aj
@@ -42801,13 +42903,13 @@ aj
 qS
 aj
 qS
-qS
+AS
 aj
 RP
 Zw
 CA
 Zw
-RP
+pt
 OV
 aj
 ae
@@ -42976,7 +43078,7 @@ ae
 ae
 ae
 ae
-Zy
+HJ
 Zy
 Zy
 Zy
@@ -43560,7 +43662,7 @@ ae
 ae
 aj
 RP
-RP
+Hr
 RP
 RP
 RP
@@ -43771,7 +43873,7 @@ ae
 ae
 ae
 aj
-QS
+WP
 QS
 QS
 QS
@@ -43817,7 +43919,7 @@ ae
 ae
 aj
 aj
-Zv
+RP
 RP
 RP
 RP
@@ -43833,7 +43935,7 @@ aj
 QS
 qS
 Ps
-RP
+LF
 aj
 ae
 ae
@@ -44028,7 +44130,7 @@ ae
 ae
 ae
 aj
-QS
+Ey
 BJ
 QS
 QS
@@ -44285,7 +44387,7 @@ ae
 ae
 ae
 aj
-QS
+WP
 QS
 QS
 QS
@@ -44602,7 +44704,7 @@ qS
 QS
 qS
 qS
-qS
+LE
 Ps
 TZ
 aj
@@ -56799,7 +56901,7 @@ GY
 Xk
 HM
 HM
-IB
+Tl
 IJ
 tj
 tj
@@ -58331,7 +58433,7 @@ WN
 WN
 WN
 XM
-He
+Ip
 Qn
 SO
 Hf
@@ -58582,7 +58684,7 @@ eJ
 Cl
 WN
 WN
-WN
+QP
 WN
 WN
 WN
@@ -58604,7 +58706,7 @@ GN
 la
 He
 ub
-ME
+Zv
 Hg
 Hf
 GN
@@ -59867,7 +59969,7 @@ eJ
 eJ
 YO
 WN
-WN
+QP
 WN
 WN
 WN
@@ -59885,7 +59987,7 @@ Hk
 Ik
 GH
 tj
-He
+Ip
 GH
 DM
 Mi
@@ -60365,14 +60467,14 @@ eJ
 eJ
 WN
 WN
-WN
+Sb
 WN
 WN
 WN
 WN
 MU
 WN
-WN
+Sb
 WN
 ge
 ge
@@ -62692,7 +62794,7 @@ fr
 eL
 WN
 WN
-WN
+Sb
 fr
 fr
 WN
@@ -62700,7 +62802,7 @@ WN
 WN
 MZ
 WN
-WN
+QP
 WN
 WN
 Cb
@@ -63184,7 +63286,7 @@ WN
 WN
 eJ
 eJ
-WN
+Ve
 WN
 eJ
 ge
@@ -65257,7 +65359,7 @@ eJ
 eJ
 WN
 WN
-WN
+Sb
 WN
 WN
 eJ
