@@ -144,6 +144,17 @@
 	},
 /turf/open/floor/plating/abductor2,
 /area/awaymission/mothership_astrum/halls)
+"bX" = (
+/mob/living/basic/creature{
+	desc = "Awh its so sm-OH GOD WHAT THE FUCK.";
+	faction = list("Abductor");
+	health = 25;
+	maxHealth = 25;
+	name = "hatchling";
+	current_size = 0.85
+	},
+/turf/open/floor/mineral/abductor,
+/area/awaymission/mothership_astrum/halls)
 "ca" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plating/abductor2,
@@ -246,11 +257,6 @@
 /obj/structure/bedsheetbin,
 /turf/open/misc/beach/sand,
 /area/awaymission/mothership_astrum/deck5)
-"eB" = (
-/obj/structure/alien/weeds,
-/mob/living/basic/alien/queen/large,
-/turf/open/floor/plating/abductor2,
-/area/awaymission/mothership_astrum/deck4)
 "eE" = (
 /mob/living/basic/abductor/ranged/agent,
 /turf/open/floor/plating/abductor2,
@@ -350,10 +356,6 @@
 "gi" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
 /mob/living/basic/trooper/syndicate/ranged/shotgun,
-/turf/open/floor/wood,
-/area/awaymission/mothership_astrum/deck1)
-"gu" = (
-/mob/living/basic/trooper/syndicate/melee/sword/anthro,
 /turf/open/floor/wood,
 /area/awaymission/mothership_astrum/deck1)
 "gw" = (
@@ -1572,29 +1574,11 @@
 /obj/item/gun/energy/alien/astrum,
 /turf/open/floor/plating/abductor2,
 /area/awaymission/mothership_astrum/halls)
-"Ad" = (
-/mob/living/basic/creature{
-	desc = "Awh its so sm-OH GOD WHAT THE FUCK.";
-	faction = list("Abductor");
-	health = 25;
-	maxHealth = 25;
-	name = "hatchling";
-	current_size = 0.85
-	},
-/turf/open/floor/plating/abductor2,
-/area/awaymission/mothership_astrum/halls)
 "As" = (
 /obj/structure/table/abductor,
 /obj/effect/spawner/random/exotic/syndie,
 /turf/open/floor/plating/abductor,
 /area/awaymission/mothership_astrum/halls)
-"Av" = (
-/mob/living/basic/trooper/pirate/melee{
-	faction = list("Abductor");
-	loot = list(/obj/effect/mob_spawn/corpse/human/pirate)
-	},
-/turf/open/misc/beach/coast/corner,
-/area/awaymission/mothership_astrum/deck5)
 "Ay" = (
 /obj/item/ammo_casing/c38,
 /turf/open/floor/wood,
@@ -2071,17 +2055,6 @@
 /obj/item/organ/cyberimp/mouth/breathing_tube,
 /turf/open/floor/mineral/abductor,
 /area/awaymission/mothership_astrum/halls)
-"FU" = (
-/mob/living/basic/creature{
-	desc = "Awh its so sm-OH GOD WHAT THE FUCK.";
-	faction = list("Abductor");
-	health = 25;
-	maxHealth = 25;
-	name = "hatchling";
-	current_size = 0.85
-	},
-/turf/open/floor/mineral/abductor,
-/area/awaymission/mothership_astrum/halls)
 "FV" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/alien/weeds,
@@ -2231,6 +2204,17 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/mothership_astrum/deck2)
+"Hh" = (
+/mob/living/basic/creature{
+	desc = "Awh its so sm-OH GOD WHAT THE FUCK.";
+	faction = list("Abductor");
+	health = 25;
+	maxHealth = 25;
+	name = "hatchling";
+	current_size = 0.85
+	},
+/turf/open/floor/plating/abductor2,
+/area/awaymission/mothership_astrum/halls)
 "Hj" = (
 /turf/closed/mineral,
 /area/awaymission/mothership_astrum/deck1)
@@ -2351,6 +2335,11 @@
 /obj/effect/decal/cleanable/blood/footprints,
 /turf/open/floor/mineral/abductor,
 /area/awaymission/mothership_astrum/halls)
+"IF" = (
+/obj/structure/alien/weeds,
+/mob/living/basic/alien/queen/large,
+/turf/open/floor/plating/abductor2,
+/area/awaymission/mothership_astrum/deck4)
 "II" = (
 /obj/structure/alien/weeds/creature,
 /obj/effect/mob_spawn/corpse/human/miner/explorer,
@@ -3127,6 +3116,13 @@
 "RI" = (
 /turf/open/floor/iron,
 /area/awaymission/mothership_astrum/deck2)
+"RL" = (
+/mob/living/basic/trooper/pirate/melee{
+	faction = list("Abductor");
+	loot = list(/obj/effect/mob_spawn/corpse/human/pirate)
+	},
+/turf/open/misc/beach/coast/corner,
+/area/awaymission/mothership_astrum/deck5)
 "RQ" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/footprints,
@@ -3180,6 +3176,10 @@
 /obj/item/organ/cyberimp/chest/scanner,
 /turf/open/floor/mineral/abductor,
 /area/awaymission/mothership_astrum/halls)
+"SE" = (
+/mob/living/basic/trooper/syndicate/melee/sword/anthro,
+/turf/open/floor/wood,
+/area/awaymission/mothership_astrum/deck1)
 "SF" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/mineral/abductor,
@@ -29789,7 +29789,7 @@ ee
 Tu
 ee
 ee
-FU
+bX
 bV
 ee
 ee
@@ -33492,7 +33492,7 @@ WZ
 Xd
 Tn
 wo
-gu
+SE
 wo
 Xd
 WZ
@@ -38001,7 +38001,7 @@ Tu
 ee
 ee
 Zp
-Ad
+Hh
 Vh
 Vh
 Zp
@@ -38792,7 +38792,7 @@ ep
 dj
 dj
 dj
-eB
+IF
 hk
 fz
 dj
@@ -44193,7 +44193,7 @@ bV
 bV
 bV
 bV
-FU
+bX
 bV
 bV
 bV
@@ -47843,7 +47843,7 @@ zc
 yC
 En
 En
-Av
+RL
 sW
 sW
 sW

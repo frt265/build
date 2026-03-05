@@ -472,10 +472,6 @@
 "cL" = (
 /turf/open/floor/engine,
 /area/awaymission/caves/heretic_laboratory)
-"cM" = (
-/mob/living/basic/heretic_summon/ash_spirit,
-/turf/open/floor/iron/white,
-/area/awaymission/caves/heretic_laboratory)
 "cN" = (
 /obj/structure/closet/cabinet,
 /obj/effect/turf_decal/tile/bar/anticorner/contrasted{
@@ -1388,6 +1384,10 @@
 	dir = 4
 	},
 /area/awaymission/beach/heretic)
+"hm" = (
+/mob/living/basic/heretic_summon/stalker,
+/turf/open/floor/iron,
+/area/awaymission/caves/heretic_laboratory)
 "ho" = (
 /obj/structure/table/glass,
 /obj/item/stack/medical/gauze,
@@ -2288,10 +2288,6 @@
 /obj/item/organ/heart/gland,
 /turf/open/floor/iron/large,
 /area/awaymission/caves/heretic_laboratory_clean)
-"mf" = (
-/mob/living/basic/heretic_summon/stalker,
-/turf/open/floor/iron,
-/area/awaymission/caves/heretic_laboratory)
 "mg" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/machinery/light/directional/south,
@@ -2701,6 +2697,10 @@
 /obj/machinery/light/small/directional/south,
 /obj/structure/bedsheetbin,
 /turf/open/floor/iron/white/textured_large,
+/area/awaymission/beach/heretic)
+"on" = (
+/mob/living/basic/heretic_summon/stalker,
+/turf/open/floor/wood,
 /area/awaymission/beach/heretic)
 "oo" = (
 /obj/structure/railing{
@@ -3429,10 +3429,6 @@
 /obj/effect/spawner/random/heretic_gateway_low,
 /turf/open/floor/iron/small,
 /area/awaymission/caves/heretic_laboratory_clean)
-"rY" = (
-/mob/living/basic/heretic_summon/raw_prophet,
-/turf/open/floor/iron/white,
-/area/awaymission/caves/heretic_laboratory)
 "sa" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 4
@@ -4643,10 +4639,6 @@
 /obj/effect/blessing/invisible,
 /turf/open/floor/iron/small,
 /area/awaymission/caves/heretic_laboratory)
-"xP" = (
-/mob/living/basic/heretic_summon/ash_spirit,
-/turf/open/floor/iron/large,
-/area/awaymission/caves/heretic_laboratory)
 "xQ" = (
 /turf/open/floor/iron/dark,
 /area/awaymission/caves/heretic_laboratory)
@@ -5469,6 +5461,10 @@
 /obj/effect/turf_decal/box,
 /turf/open/floor/iron/white/smooth_large,
 /area/awaymission/caves/heretic_laboratory)
+"CF" = (
+/mob/living/basic/heretic_summon/ash_spirit,
+/turf/open/floor/iron/white,
+/area/awaymission/caves/heretic_laboratory)
 "CG" = (
 /obj/effect/turf_decal/tile/yellow/anticorner/contrasted,
 /obj/effect/blessing/invisible,
@@ -5744,6 +5740,10 @@
 	},
 /turf/open/misc/grass/jungle/station,
 /area/awaymission/beach/heretic)
+"Ej" = (
+/mob/living/basic/heretic_summon/raw_prophet,
+/turf/open/floor/iron/white,
+/area/awaymission/caves/heretic_laboratory)
 "Ek" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 1
@@ -8748,6 +8748,10 @@
 	},
 /turf/open/floor/asphalt,
 /area/awaymission/beach/heretic)
+"TU" = (
+/mob/living/basic/heretic_summon/ash_spirit,
+/turf/open/floor/iron/large,
+/area/awaymission/caves/heretic_laboratory)
 "TV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
 	dir = 4
@@ -9859,10 +9863,6 @@
 /obj/effect/blessing/invisible,
 /turf/open/floor/iron/dark,
 /area/awaymission/caves/heretic_laboratory)
-"ZS" = (
-/mob/living/basic/heretic_summon/stalker,
-/turf/open/floor/wood,
-/area/awaymission/beach/heretic)
 "ZV" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -14723,7 +14723,7 @@ KB
 KB
 DT
 Xu
-rY
+Ej
 KB
 KB
 KB
@@ -15236,7 +15236,7 @@ Xu
 Xu
 KB
 Xu
-cM
+CF
 Xu
 KB
 Gw
@@ -15720,7 +15720,7 @@ mV
 AO
 uq
 AO
-xP
+TU
 aE
 cq
 JO
@@ -18282,7 +18282,7 @@ KB
 KB
 KB
 mo
-mf
+hm
 oW
 KB
 bq
@@ -38138,7 +38138,7 @@ te
 te
 te
 eh
-ZS
+on
 te
 te
 te
@@ -39936,7 +39936,7 @@ NX
 NX
 NX
 fh
-ZS
+on
 PC
 Rz
 jQ
@@ -44559,7 +44559,7 @@ un
 tJ
 nT
 te
-ZS
+on
 PC
 Tm
 te

@@ -2980,13 +2980,6 @@
 /obj/machinery/duct,
 /turf/open/floor/plating,
 /area/awaymission/moonoutpost19/arrivals)
-"sR" = (
-/obj/structure/alien/weeds/node,
-/mob/living/basic/alien/sentinel,
-/turf/open/misc/asteroid/moon{
-	initial_gas_mix = "co2=48.7;n2=13.2;o2=32.4;TEMP=251"
-	},
-/area/awaymission/moonoutpost19/hive)
 "sU" = (
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/external/ruin{
@@ -3988,6 +3981,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/awaymission/moonoutpost19/syndicate)
+"zP" = (
+/obj/structure/alien/weeds,
+/mob/living/basic/alien/queen/large,
+/turf/open/floor/engine,
+/area/awaymission/moonoutpost19/research)
 "zR" = (
 /obj/structure/grille,
 /obj/machinery/duct,
@@ -4338,18 +4336,6 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/moonoutpost19/syndicate)
-"Cd" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/mob/living/basic/alien,
-/turf/open/floor/iron{
-	initial_gas_mix = "co2=48.7;n2=13.2;o2=32.4;TEMP=251";
-	temperature = 251
-	},
-/area/awaymission/moonoutpost19/syndicate)
 "Ce" = (
 /obj/structure/alien/weeds,
 /obj/effect/turf_decal/tile/purple,
@@ -4691,6 +4677,18 @@
 	},
 /turf/open/floor/carpet/royalblue,
 /area/awaymission/moonoutpost19/arrivals)
+"EM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/mob/living/basic/alien,
+/turf/open/floor/iron{
+	initial_gas_mix = "co2=48.7;n2=13.2;o2=32.4;TEMP=251";
+	temperature = 251
+	},
+/area/awaymission/moonoutpost19/syndicate)
 "EN" = (
 /obj/machinery/gateway/away{
 	calibrated = 0
@@ -5566,11 +5564,6 @@
 	dir = 1
 	},
 /area/awaymission/moonoutpost19/research)
-"KS" = (
-/obj/structure/alien/weeds,
-/mob/living/basic/alien/queen/large,
-/turf/open/floor/engine,
-/area/awaymission/moonoutpost19/research)
 "Lc" = (
 /obj/machinery/conveyor{
 	id = "awaysyndie"
@@ -5691,6 +5684,13 @@
 /obj/item/clothing/mask/facehugger/impregnated,
 /obj/item/clothing/under/syndicate,
 /obj/item/clothing/glasses/night,
+/turf/open/misc/asteroid/moon{
+	initial_gas_mix = "co2=48.7;n2=13.2;o2=32.4;TEMP=251"
+	},
+/area/awaymission/moonoutpost19/hive)
+"Me" = (
+/obj/structure/alien/weeds/node,
+/mob/living/basic/alien/sentinel,
 /turf/open/misc/asteroid/moon{
 	initial_gas_mix = "co2=48.7;n2=13.2;o2=32.4;TEMP=251"
 	},
@@ -30964,7 +30964,7 @@ ac
 um
 um
 fY
-sR
+Me
 fY
 fY
 fY
@@ -40479,7 +40479,7 @@ mS
 GW
 xC
 ab
-Cd
+EM
 HE
 lj
 BW
@@ -40585,7 +40585,7 @@ eq
 eF
 eQ
 eH
-KS
+zP
 fp
 eq
 en

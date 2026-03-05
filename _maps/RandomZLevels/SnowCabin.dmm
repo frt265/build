@@ -3352,6 +3352,10 @@
 /obj/effect/decal/cleanable/plasma,
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
+"wc" = (
+/mob/living/basic/mining/legion/snow,
+/turf/open/misc/asteroid/snow/snow_cabin,
+/area/awaymission/cabin/caves)
 "wf" = (
 /obj/structure/statue/snow/snowman{
 	anchored = 1;
@@ -4121,6 +4125,10 @@
 /obj/structure/light_construct/directional/south,
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
+"FP" = (
+/mob/living/basic/mining/legion/monkey/snow,
+/turf/open/misc/asteroid/snow/snow_cabin,
+/area/awaymission/cabin/caves)
 "FQ" = (
 /obj/structure/statue/snow/snowman{
 	anchored = 1;
@@ -4708,10 +4716,6 @@
 	},
 /turf/open/floor/plating/snowed,
 /area/awaymission/cabin/snowforest)
-"OA" = (
-/mob/living/basic/mining/legion/snow,
-/turf/open/misc/asteroid/snow/snow_cabin,
-/area/awaymission/cabin/caves)
 "OF" = (
 /obj/structure/table/wood,
 /obj/structure/sign/warning/no_smoking/circle{
@@ -4947,10 +4951,6 @@
 	id = "GETMEOUTOFHEREYOUFUCKS";
 	name = "\improper Return Rune"
 	},
-/turf/open/misc/asteroid/snow/snow_cabin,
-/area/awaymission/cabin/caves)
-"RR" = (
-/mob/living/basic/mining/legion/monkey/snow,
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
 "RU" = (
@@ -5191,6 +5191,16 @@
 /obj/effect/decal/cleanable/shreds,
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
+"TV" = (
+/obj/effect/decal/cleanable/glitter{
+	desc = "It looks like fancy glitter to me.";
+	name = "icy wind";
+	color = "4040ff"
+	},
+/obj/effect/decal/cleanable/generic,
+/mob/living/basic/mining/legion/monkey/snow,
+/turf/open/misc/asteroid/snow/snow_cabin,
+/area/awaymission/cabin/caves)
 "Ua" = (
 /obj/effect/turf_decal/weather/snow,
 /obj/effect/light_emitter{
@@ -5304,16 +5314,6 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/cabin)
-"Vl" = (
-/obj/effect/decal/cleanable/glitter{
-	desc = "It looks like fancy glitter to me.";
-	name = "icy wind";
-	color = "4040ff"
-	},
-/obj/effect/decal/cleanable/generic,
-/mob/living/basic/mining/legion/monkey/snow,
-/turf/open/misc/asteroid/snow/snow_cabin,
-/area/awaymission/cabin/caves)
 "VA" = (
 /obj/effect/light_emitter{
 	set_cap = 3;
@@ -12801,7 +12801,7 @@ ms
 Oe
 Oe
 Oe
-RR
+FP
 Oe
 Oe
 ms
@@ -14860,7 +14860,7 @@ gx
 gx
 mP
 Oe
-OA
+wc
 Oe
 Oe
 mP
@@ -16148,7 +16148,7 @@ gx
 ms
 ms
 Oe
-RR
+FP
 Oe
 ms
 ab
@@ -46399,7 +46399,7 @@ gx
 RN
 Oe
 Oe
-RR
+FP
 Oe
 Oe
 Oe
@@ -50502,7 +50502,7 @@ gx
 Oe
 gx
 Oe
-RR
+FP
 gx
 gx
 gx
@@ -52569,7 +52569,7 @@ gx
 gx
 Lj
 tC
-Vl
+TV
 tC
 WH
 gx

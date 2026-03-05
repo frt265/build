@@ -6486,6 +6486,11 @@
 	dir = 5
 	},
 /area/awaymission/undergroundoutpost45/crew_quarters)
+"AE" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/mob/living/carbon/alien/adult/drone,
+/turf/open/misc/asteroid/plasma,
+/area/awaymission/undergroundoutpost45/caves)
 "AN" = (
 /obj/structure/sign/warning/electric_shock/directional/south,
 /obj/machinery/vending/engivend,
@@ -6805,11 +6810,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/awaymission/undergroundoutpost45/engineering)
-"Fk" = (
-/obj/effect/decal/cleanable/blood/splatter,
-/mob/living/carbon/alien/adult/drone,
-/turf/open/misc/asteroid/plasma,
-/area/awaymission/undergroundoutpost45/caves)
 "Fw" = (
 /obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/all_access,
@@ -7006,10 +7006,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/awaymission/undergroundoutpost45/research)
-"Jq" = (
-/mob/living/carbon/alien/adult/drone,
-/turf/open/misc/asteroid/plasma,
-/area/awaymission/undergroundoutpost45/caves)
 "Jv" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/cafeteria{
@@ -7719,6 +7715,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/awaymission/undergroundoutpost45/central)
+"WS" = (
+/mob/living/carbon/alien/adult/drone,
+/turf/open/misc/asteroid/plasma,
+/area/awaymission/undergroundoutpost45/caves)
 "WT" = (
 /obj/structure/table/glass,
 /obj/item/stock_parts/servo,
@@ -27865,7 +27865,7 @@ ad
 ad
 zq
 Gn
-Jq
+WS
 Tr
 ad
 ad
@@ -28371,7 +28371,7 @@ ad
 ad
 ad
 Cd
-Jq
+WS
 BQ
 ZD
 ad
@@ -29154,7 +29154,7 @@ Lk
 Tr
 zO
 XQ
-Fk
+AE
 zq
 zb
 ad
@@ -29405,7 +29405,7 @@ ad
 Tr
 zq
 zq
-Jq
+WS
 Gn
 zq
 zq
