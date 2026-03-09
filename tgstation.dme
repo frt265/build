@@ -9762,3 +9762,8 @@
 #include "tff_modular\modules\~donator\items\donator_plushes.dm"
 #include "tff_modular\modules\~donator\items\donator_plushies_loadout.dm"
 // END_INCLUDE
+
+// FRT265_MOD
+#include "mods\depths\code\depths_obj.dm"
+#include "mods\depths\code\area\depths_areas.dm"
+// END_FRT265_MOD
