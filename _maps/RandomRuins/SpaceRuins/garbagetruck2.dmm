@@ -599,6 +599,7 @@
 /obj/structure/frame/machine,
 /obj/item/shard,
 /obj/effect/decal/cleanable/glass,
+/obj/effect/spawner/random/engineering/tool_advanced,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
 "Tp" = (

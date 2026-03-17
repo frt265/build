@@ -647,10 +647,6 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/plating,
 /area/awaymission/caves/maintsroom)
-"cl" = (
-/mob/living/basic/evilborgs/evilborg/bigguy,
-/turf/open/floor/plating,
-/area/awaymission/caves/maintsroom)
 "cm" = (
 /obj/machinery/light/directional/south,
 /mob/living/basic/mothroach,
@@ -10879,14 +10875,6 @@
 	},
 /obj/item/banner/red,
 /turf/open/floor/iron/dark/textured,
-/area/awaymission/caves/maintsroom)
-"Kn" = (
-/mob/living/basic/evilborgs/evilborg/bigguy{
-	name = "High end military robot";
-	desc = "A military robot unit, hacked or malfunctioning. This one looks really tough, and even tougher than its usual model! you should RUN.";
-	health = 500
-	},
-/turf/open/floor/circuit/red/anim,
 /area/awaymission/caves/maintsroom)
 "Kp" = (
 /obj/effect/decal/cleanable/dirt,
@@ -23880,7 +23868,7 @@ pz
 hG
 GS
 uG
-cl
+uG
 GS
 XN
 iv
@@ -25180,7 +25168,7 @@ wQ
 hm
 xH
 xH
-Kn
+xH
 xH
 dT
 xH

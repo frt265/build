@@ -151,6 +151,12 @@
 	initial_gas_mix = "ICEMOON_ATMOS"
 	},
 /area/ruin/unpowered/abandoned_sacred_temple)
+"fK" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/hearthkin_ship_fragment_active,
+/turf/open/floor/wood/icemoon,
+/area/ruin/unpowered/abandoned_sacred_temple)
 "gj" = (
 /obj/structure/window/green_glass_pane,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -1735,7 +1741,7 @@ sV
 zL
 Fk
 zL
-Fk
+fK
 Fk
 zL
 Fk

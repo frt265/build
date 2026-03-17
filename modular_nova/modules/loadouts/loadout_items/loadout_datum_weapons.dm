@@ -85,3 +85,8 @@
 	name = /obj/item/forging/reagent_weapon/staff::name
 	item_path = /obj/item/forging/reagent_weapon/staff
 */
+// Тимохины изменения Кургузе
+
+/datum/loadout_item/weapons/soulscythe
+    name = "Soul Scythe"
+    item_path = /obj/item/soulscythe/nest
