@@ -244,3 +244,25 @@
 
 	filled_overlay.color = mix_color_from_reagents(reagents.reagent_list + food_reagents)
 	. += filled_overlay
+
+/obj/item/reagent_containers/cup/soup_pot/teapot
+	name = "teapot"
+	desc = "Obviously for tea."
+	icon = 'icons/obj/service/kitchen.dmi'
+	icon_state = "teapot"
+	base_icon_state = "teapot"
+	volume = 120
+	possible_transfer_amounts = list(5, 10, 30, 60, 120)
+	amount_per_transfer_from_this = 50
+	initial_reagent_flags = REFILLABLE | DRAINABLE
+	custom_materials = list(/datum/material/iron =SHEET_MATERIAL_AMOUNT * 2)
+	w_class = WEIGHT_CLASS_NORMAL
+	custom_price = PAYCHECK_LOWER * 8
+	fill_icon_thresholds = null
+	sound_vary = TRUE
+	pickup_sound = SFX_POT_PICKUP
+	drop_sound = SFX_POT_DROP
+	/// Max number of ingredients we can add
+	max_ingredients = 4
+	/// A lazylist of all the ingredients we have added
+	list/obj/item/added_ingredients
