@@ -17,7 +17,7 @@
 	name = "heavy Mike"
 	desc = "Damn it..."
 	payload = /obj/item/bombcore/nukie
-	open_panel = TRUE
+	open_panel = FALSE
 	timer_set = 666
 
 	icon = 'mods/depths/icons/obj/heavymike.dmi'
