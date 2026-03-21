@@ -264,5 +264,3 @@
 	drop_sound = SFX_POT_DROP
 	/// Max number of ingredients we can add
 	max_ingredients = 4
-	/// A lazylist of all the ingredients we have added
-	list/obj/item/added_ingredients
