@@ -415,6 +415,7 @@
 	icon_state = "gib1-old"
 	},
 /obj/item/ammo_casing/spent,
+/obj/item/mod/control/pre_equipped/empty/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/infested_frigate)
 "fl" = (
@@ -2094,6 +2095,7 @@
 /area/space/nearstation)
 "Im" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
+/obj/item/clothing/head/playbunnyears/syndicate/fake,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/infested_frigate)
 "In" = (
@@ -2602,6 +2604,7 @@
 /obj/effect/spawner/random/exotic/technology,
 /obj/effect/spawner/random/trash,
 /obj/effect/spawner/random/trash,
+/obj/item/autosurgeon/syndicate/reviver/single_use,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/infested_frigate)
 "PV" = (
@@ -2746,6 +2749,7 @@
 	pixel_y = -1
 	},
 /obj/structure/table/glass/plasmaglass,
+/obj/item/clothing/suit/hooded/explorer/syndicate,
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/infested_frigate)
 "SB" = (

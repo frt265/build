@@ -963,6 +963,10 @@
 /mob/living/basic/mining_drone,
 /turf/open/floor/plating,
 /area/awaymission/caves/listeningpost)
+"hn" = (
+/mob/living/simple_animal/hostile/megafauna/legion,
+/turf/open/misc/asteroid/basalt,
+/area/awaymission/caves/bmp_asteroid/level_four)
 "hq" = (
 /turf/open/misc/asteroid/basalt,
 /area/awaymission/caves/bmp_asteroid/level_three)
@@ -1136,6 +1140,10 @@
 	},
 /turf/open/misc/asteroid/basalt,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"ut" = (
+/mob/living/basic/mining/legion/monkey,
+/turf/open/misc/asteroid/basalt,
+/area/awaymission/caves/bmp_asteroid/level_three)
 "uN" = (
 /obj/structure/spider/stickyweb,
 /obj/machinery/sleeper{
@@ -1152,6 +1160,11 @@
 /obj/machinery/light/small/empty/directional/east,
 /turf/open/misc/asteroid/basalt,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"vN" = (
+/obj/structure/spider/stickyweb,
+/mob/living/basic/spider/giant/hunter/away_caves,
+/turf/open/floor/iron,
+/area/awaymission/caves/bmp_asteroid)
 "vR" = (
 /obj/structure/sign/departments/medbay/directional/west,
 /turf/open/misc/asteroid/basalt,
@@ -1335,6 +1348,10 @@
 /obj/structure/destructible/cult/pylon,
 /turf/open/misc/asteroid/basalt,
 /area/awaymission/caves/bmp_asteroid/level_three)
+"HP" = (
+/mob/living/basic/mining/legion/large,
+/turf/open/misc/asteroid/basalt,
+/area/awaymission/caves/bmp_asteroid/level_three)
 "Ik" = (
 /obj/item/stack/rods,
 /turf/open/misc/asteroid/basalt,
@@ -1417,6 +1434,7 @@
 /obj/item/storage/medkit/fire,
 /obj/item/storage/medkit/fire,
 /obj/structure/spider/stickyweb,
+/mob/living/basic/spider/giant/hunter/away_caves,
 /turf/open/floor/iron,
 /area/awaymission/caves/bmp_asteroid)
 "MM" = (
@@ -1436,6 +1454,10 @@
 /obj/item/paper/fluff/awaymissions/caves/omega,
 /turf/open/floor/iron,
 /area/awaymission/caves/research)
+"NU" = (
+/mob/living/basic/mining/legion/monkey,
+/turf/open/floor/engine/cult,
+/area/awaymission/caves/bmp_asteroid/level_four)
 "NX" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
 /turf/open/misc/asteroid/basalt,
@@ -1464,6 +1486,10 @@
 /mob/living/basic/bat/away_caves,
 /turf/open/misc/asteroid/basalt,
 /area/awaymission/caves/bmp_asteroid)
+"QB" = (
+/mob/living/basic/mining/legion/monkey,
+/turf/open/misc/asteroid/basalt,
+/area/awaymission/caves/bmp_asteroid/level_four)
 "Rm" = (
 /obj/effect/decal/remains/human,
 /turf/open/misc/asteroid/basalt,
@@ -1481,6 +1507,10 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/misc/asteroid/basalt,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"RL" = (
+/mob/living/simple_animal/hostile/asteroid/elite/legionnaire,
+/turf/open/floor/engine/cult,
+/area/awaymission/caves/bmp_asteroid/level_four)
 "SV" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/misc/asteroid/basalt,
@@ -1510,6 +1540,10 @@
 	},
 /turf/open/misc/asteroid/basalt,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"VQ" = (
+/mob/living/basic/mining/legion/monkey,
+/turf/open/floor/plating,
+/area/awaymission/caves/bmp_asteroid/level_three)
 "Wj" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron,
@@ -1529,6 +1563,11 @@
 /obj/vehicle/sealed/mecha/ripley/mining,
 /turf/open/floor/iron/recharge_floor,
 /area/awaymission/caves/bmp_asteroid)
+"WP" = (
+/obj/effect/decal/cleanable/blood/old,
+/mob/living/basic/mining/legion/monkey,
+/turf/open/floor/engine/cult,
+/area/awaymission/caves/bmp_asteroid/level_four)
 "Xa" = (
 /mob/living/basic/bat/away_caves,
 /turf/open/floor/iron,
@@ -5628,7 +5667,7 @@ ac
 ac
 ac
 hq
-hq
+ut
 ah
 ah
 ah
@@ -6465,7 +6504,7 @@ bL
 bL
 dW
 FS
-fB
+vN
 dW
 Kq
 ev
@@ -6915,7 +6954,7 @@ bL
 bL
 dW
 MC
-ev
+kE
 dW
 Wj
 ev
@@ -11280,7 +11319,7 @@ hq
 hq
 hq
 hq
-hq
+HP
 ah
 ah
 ah
@@ -13327,7 +13366,7 @@ ak
 ak
 ak
 ak
-hq
+ut
 hq
 ac
 ac
@@ -16242,7 +16281,7 @@ hq
 hq
 aJ
 aK
-aK
+VQ
 aH
 ac
 ac
@@ -17141,7 +17180,7 @@ ak
 ak
 ak
 aJ
-aK
+VQ
 aK
 aJ
 ac
@@ -24987,7 +25026,7 @@ ad
 ad
 ad
 rv
-rv
+hn
 rv
 rv
 rv
@@ -28355,10 +28394,10 @@ ad
 ad
 vX
 Rm
-ao
+NU
 ar
 as
-ar
+WP
 ao
 Rm
 vX
@@ -29030,7 +29069,7 @@ ad
 ad
 vX
 Rm
-ao
+NU
 ao
 ap
 ao
@@ -31088,7 +31127,7 @@ ad
 ao
 ao
 ao
-ao
+RL
 ao
 ao
 ao
@@ -31511,7 +31550,7 @@ rv
 rv
 rv
 rv
-ao
+NU
 rv
 rv
 rv
@@ -34655,7 +34694,7 @@ ad
 ad
 rv
 rv
-rv
+QB
 rv
 rv
 ad

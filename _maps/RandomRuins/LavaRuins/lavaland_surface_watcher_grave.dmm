@@ -52,19 +52,13 @@
 /obj/structure/stone_tile/slab/cracked,
 /turf/open/misc/asteroid/basalt/wasteland,
 /area/lavaland/surface/outdoors)
-"t" = (
-/obj/structure/stone_tile/cracked{
-	pixel_x = 16
-	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
 "u" = (
 /obj/structure/flora/ash/stem_shroom,
 /turf/open/misc/asteroid/basalt/wasteland,
 /area/lavaland/surface/outdoors)
 "v" = (
 /obj/effect/mob_spawn/corpse/watcher/crushed,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
+/turf/open/misc/asteroid/basalt/wasteland,
 /area/lavaland/surface/outdoors)
 "y" = (
 /obj/structure/stone_tile/block/cracked{
@@ -89,10 +83,6 @@
 /obj/structure/stone_tile/center/cracked,
 /turf/open/misc/asteroid/basalt/wasteland,
 /area/lavaland/surface/outdoors)
-"E" = (
-/obj/structure/stone_tile/cracked,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
 "I" = (
 /turf/template_noop,
 /area/template_noop)
@@ -100,11 +90,11 @@
 /obj/structure/stone_tile/slab/cracked{
 	dir = 4
 	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
+/turf/open/misc/asteroid/basalt/wasteland,
 /area/lavaland/surface/outdoors)
 "M" = (
 /obj/structure/flora/ash/fireblossom,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
+/turf/open/misc/asteroid/basalt/wasteland,
 /area/lavaland/surface/outdoors)
 "R" = (
 /turf/closed/indestructible/riveted/boss/wasteland,
@@ -113,9 +103,6 @@
 /obj/structure/stone_tile/slab/cracked,
 /obj/effect/mob_spawn/corpse/watcher/goliath_chewed,
 /turf/open/misc/asteroid/basalt/wasteland,
-/area/lavaland/surface/outdoors)
-"W" = (
-/turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 
 (1,1,1) = {"
@@ -140,8 +127,8 @@ I
 I
 a
 I
-W
-W
+q
+q
 M
 I
 I
@@ -156,7 +143,7 @@ l
 a
 a
 a
-t
+f
 a
 a
 I
@@ -304,11 +291,11 @@ I
 I
 I
 I
-W
+q
 M
 J
-E
-W
+h
+q
 I
 I
 I
@@ -320,9 +307,9 @@ I
 I
 I
 I
-t
+f
 v
-W
+q
 I
 I
 I
@@ -336,8 +323,8 @@ I
 I
 I
 I
-W
-W
+q
+q
 I
 I
 I

@@ -288,3 +288,11 @@
 	return ..()
 
 #undef MAX_BLOOD_LEVEL
+
+
+/obj/item/soulscythe/nest
+	force = 10
+	throwforce = 10
+
+/obj/item/soulscythe/nest/break_out()
+	return

@@ -260,6 +260,9 @@
 /obj/structure/safe,
 /obj/item/syndicrate_key,
 /obj/effect/spawner/random/exotic/antag_gear,
+/obj/effect/spawner/random/exotic/antag_gear,
+/obj/effect/spawner/random/exotic/antag_gear,
+/obj/effect/spawner/random/exotic/antag_gear,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "Da" = (

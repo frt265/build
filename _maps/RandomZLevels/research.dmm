@@ -471,6 +471,7 @@
 /area/awaymission/research/interior/engineering)
 "ch" = (
 /obj/machinery/light/small/directional/east,
+/mob/living/basic/trooper/syndicate/ranged,
 /turf/open/floor/plating,
 /area/awaymission/research/interior/maint)
 "ci" = (
@@ -727,6 +728,7 @@
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	dir = 4
 	},
+/mob/living/basic/trooper/syndicate,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior)
 "dB" = (
@@ -1825,6 +1827,7 @@
 "iZ" = (
 /obj/machinery/airalarm/directional/north,
 /obj/effect/turf_decal/tile/blue,
+/mob/living/basic/trooper/syndicate,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/medbay)
 "ja" = (
@@ -1965,6 +1968,13 @@
 /obj/structure/sign/departments/medbay,
 /turf/closed/wall/r_wall,
 /area/awaymission/research/interior)
+"jM" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 8
+	},
+/mob/living/basic/trooper/syndicate,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/medbay)
 "jP" = (
 /obj/item/kirbyplants/organic/plant16,
 /obj/effect/turf_decal/siding/yellow{
@@ -2075,6 +2085,7 @@
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
 	dir = 4
 	},
+/mob/living/basic/trooper/syndicate/ranged/smg,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/medbay)
 "kl" = (
@@ -2235,6 +2246,7 @@
 /area/awaymission/research/interior/dorm)
 "kW" = (
 /obj/effect/turf_decal/tile/blue,
+/mob/living/basic/trooper/syndicate,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/medbay)
 "kX" = (
@@ -2818,6 +2830,11 @@
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron,
 /area/awaymission/research/interior/security)
+"ox" = (
+/obj/effect/turf_decal/tile/purple/fourcorners,
+/mob/living/basic/gorilla/hostile,
+/turf/open/floor/iron,
+/area/awaymission/research/interior/genetics)
 "oO" = (
 /obj/structure/chair/stool/directional/west,
 /obj/effect/turf_decal/siding/yellow{
@@ -2848,6 +2865,11 @@
 /obj/effect/turf_decal/tile/green/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior)
+"pQ" = (
+/obj/effect/turf_decal/tile/red/fourcorners,
+/mob/living/basic/trooper/nanotrasen/ranged/smg,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/security)
 "pS" = (
 /obj/item/shard{
 	icon_state = "small"
@@ -2907,12 +2929,22 @@
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/iron,
 /area/awaymission/research/interior/genetics)
+"ri" = (
+/obj/effect/turf_decal/tile/red/half/contrasted,
+/mob/living/basic/trooper/nanotrasen/ranged/smg,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/security)
 "rk" = (
 /obj/structure/barricade/security,
 /obj/machinery/light/directional/west,
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/security)
+"rt" = (
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/mob/living/basic/trooper/syndicate/ranged/smg,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/medbay)
 "ry" = (
 /obj/machinery/light/directional/east,
 /obj/effect/turf_decal/tile/blue/fourcorners,
@@ -3025,6 +3057,7 @@
 "vh" = (
 /obj/item/stack/rods,
 /obj/effect/turf_decal/tile/purple/fourcorners,
+/mob/living/basic/gorilla/hostile,
 /turf/open/floor/iron/dark,
 /area/awaymission/research/interior/genetics)
 "vv" = (
@@ -3047,6 +3080,13 @@
 /obj/structure/chair/stool/directional/west,
 /turf/open/floor/iron,
 /area/awaymission/research/interior/dorm)
+"wm" = (
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/effect/mob_spawn/corpse/human/doctor{
+	brute_damage = 200
+	},
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/medbay)
 "wq" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/misc/asteroid/airless,
@@ -3545,6 +3585,16 @@
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/security)
+"Kk" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/item/ammo_casing/c45,
+/obj/item/shard{
+	icon_state = "small"
+	},
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/mob/living/basic/trooper/syndicate,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/medbay)
 "Km" = (
 /obj/machinery/door/airlock/security/glass{
 	id_tag = "outerbrig";
@@ -3582,6 +3632,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/medbay)
+"KW" = (
+/mob/living/basic/trooper/syndicate/ranged,
+/turf/open/floor/plating,
+/area/awaymission/research/interior/maint)
 "Le" = (
 /obj/structure/table/optable,
 /obj/effect/turf_decal/tile/blue/fourcorners,
@@ -3802,6 +3856,7 @@
 "Rn" = (
 /obj/structure/reagent_dispensers/wall/peppertank/directional/south,
 /obj/effect/turf_decal/tile/purple/fourcorners,
+/mob/living/basic/gorilla/hostile,
 /turf/open/floor/iron/dark,
 /area/awaymission/research/interior/genetics)
 "Ro" = (
@@ -3934,6 +3989,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/cryo)
+"UW" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/mob/living/basic/trooper/syndicate,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/medbay)
 "UY" = (
 /obj/item/ammo_casing/c46x30mm,
 /obj/item/ammo_casing/c9mm,
@@ -28097,13 +28157,13 @@ dc
 dc
 dc
 dW
-dc
+eV
 cQ
 fx
 dc
 gf
 cQ
-dc
+eV
 hI
 dc
 dc
@@ -29896,13 +29956,13 @@ df
 dd
 dM
 cQ
-dc
+eV
 eW
 fz
 gf
 fz
 eW
-dc
+eV
 cQ
 hT
 na
@@ -30924,13 +30984,13 @@ ad
 ad
 ad
 cQ
-dc
+eV
 dc
 dc
 gk
 dc
 dc
-dc
+eV
 cQ
 ad
 ad
@@ -36057,7 +36117,7 @@ ad
 ad
 aH
 bD
-bD
+cz
 cx
 XV
 DO
@@ -36074,7 +36134,7 @@ fE
 ea
 Jz
 Ha
-DO
+ox
 DO
 cx
 bD
@@ -38629,7 +38689,7 @@ ad
 aH
 cz
 bD
-bD
+cL
 bD
 bD
 bD
@@ -40166,7 +40226,7 @@ bD
 dy
 bm
 bD
-bD
+cL
 bD
 aH
 ad
@@ -42740,7 +42800,7 @@ ar
 aO
 aO
 aO
-aO
+KW
 aO
 aO
 dC
@@ -45577,7 +45637,7 @@ eQ
 fq
 LX
 LX
-LX
+pQ
 hn
 hE
 ok
@@ -45591,7 +45651,7 @@ aH
 aO
 iW
 ja
-vT
+rt
 NF
 vT
 kx
@@ -46362,7 +46422,7 @@ aH
 aO
 iW
 jc
-vT
+wm
 vT
 ZJ
 Cu
@@ -46602,7 +46662,7 @@ JT
 ok
 ok
 eQ
-fq
+ri
 LX
 QQ
 LX
@@ -47139,7 +47199,7 @@ vT
 kg
 kL
 kZ
-Fl
+Kk
 Th
 lD
 iW
@@ -47391,7 +47451,7 @@ aO
 iW
 je
 jx
-jx
+jM
 jx
 ko
 jf
@@ -48160,7 +48220,7 @@ ad
 aH
 aO
 iW
-jh
+UW
 vT
 vT
 km
@@ -48425,7 +48485,7 @@ kB
 kO
 vT
 qZ
-vT
+rt
 kg
 iW
 aO
@@ -48676,7 +48736,7 @@ aO
 iW
 je
 jB
-jx
+jM
 ko
 jf
 je

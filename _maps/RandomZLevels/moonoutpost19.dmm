@@ -3981,6 +3981,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/awaymission/moonoutpost19/syndicate)
+"zP" = (
+/obj/structure/alien/weeds,
+/mob/living/basic/alien/queen/large,
+/turf/open/floor/engine,
+/area/awaymission/moonoutpost19/research)
 "zR" = (
 /obj/structure/grille,
 /obj/machinery/duct,
@@ -4672,6 +4677,18 @@
 	},
 /turf/open/floor/carpet/royalblue,
 /area/awaymission/moonoutpost19/arrivals)
+"EM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/mob/living/basic/alien,
+/turf/open/floor/iron{
+	initial_gas_mix = "co2=48.7;n2=13.2;o2=32.4;TEMP=251";
+	temperature = 251
+	},
+/area/awaymission/moonoutpost19/syndicate)
 "EN" = (
 /obj/machinery/gateway/away{
 	calibrated = 0
@@ -5667,6 +5684,13 @@
 /obj/item/clothing/mask/facehugger/impregnated,
 /obj/item/clothing/under/syndicate,
 /obj/item/clothing/glasses/night,
+/turf/open/misc/asteroid/moon{
+	initial_gas_mix = "co2=48.7;n2=13.2;o2=32.4;TEMP=251"
+	},
+/area/awaymission/moonoutpost19/hive)
+"Me" = (
+/obj/structure/alien/weeds/node,
+/mob/living/basic/alien/sentinel,
 /turf/open/misc/asteroid/moon{
 	initial_gas_mix = "co2=48.7;n2=13.2;o2=32.4;TEMP=251"
 	},
@@ -28882,7 +28906,7 @@ um
 bJ
 fY
 fY
-fY
+Ha
 fY
 fY
 fY
@@ -29415,7 +29439,7 @@ um
 qA
 fY
 XO
-fY
+nz
 bJ
 um
 ac
@@ -30940,7 +30964,7 @@ ac
 um
 um
 fY
-XO
+Me
 fY
 fY
 fY
@@ -32738,7 +32762,7 @@ ac
 um
 um
 um
-fY
+Ha
 fY
 um
 um
@@ -32751,7 +32775,7 @@ um
 fY
 fY
 fY
-fY
+Ha
 fY
 um
 um
@@ -33774,7 +33798,7 @@ bl
 bl
 bl
 um
-fY
+Ha
 um
 um
 ac
@@ -34546,7 +34570,7 @@ bl
 bl
 bl
 um
-fY
+Ha
 um
 ac
 ac
@@ -36079,7 +36103,7 @@ um
 qA
 UI
 fY
-fY
+nz
 fY
 fY
 fY
@@ -40455,7 +40479,7 @@ mS
 GW
 xC
 ab
-BW
+EM
 HE
 lj
 BW
@@ -40561,7 +40585,7 @@ eq
 eF
 eQ
 eH
-en
+zP
 fp
 eq
 en

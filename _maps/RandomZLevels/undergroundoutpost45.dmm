@@ -437,6 +437,7 @@
 /area/awaymission/undergroundoutpost45/central)
 "ci" = (
 /obj/effect/decal/cleanable/blood/gibs/limb,
+/mob/living/carbon/alien/adult/drone,
 /turf/open/misc/asteroid/plasma,
 /area/awaymission/undergroundoutpost45/caves)
 "cm" = (
@@ -6485,6 +6486,11 @@
 	dir = 5
 	},
 /area/awaymission/undergroundoutpost45/crew_quarters)
+"AE" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/mob/living/carbon/alien/adult/drone,
+/turf/open/misc/asteroid/plasma,
+/area/awaymission/undergroundoutpost45/caves)
 "AN" = (
 /obj/structure/sign/warning/electric_shock/directional/south,
 /obj/machinery/vending/engivend,
@@ -7709,6 +7715,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/awaymission/undergroundoutpost45/central)
+"WS" = (
+/mob/living/carbon/alien/adult/drone,
+/turf/open/misc/asteroid/plasma,
+/area/awaymission/undergroundoutpost45/caves)
 "WT" = (
 /obj/structure/table/glass,
 /obj/item/stock_parts/servo,
@@ -27855,7 +27865,7 @@ ad
 ad
 zq
 Gn
-zq
+WS
 Tr
 ad
 ad
@@ -28361,7 +28371,7 @@ ad
 ad
 ad
 Cd
-zq
+WS
 BQ
 ZD
 ad
@@ -29144,7 +29154,7 @@ Lk
 Tr
 zO
 XQ
-BQ
+AE
 zq
 zb
 ad
@@ -29395,7 +29405,7 @@ ad
 Tr
 zq
 zq
-zq
+WS
 Gn
 zq
 zq

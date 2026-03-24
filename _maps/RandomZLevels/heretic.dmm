@@ -855,6 +855,7 @@
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	dir = 1
 	},
+/mob/living/basic/heretic_summon/stalker,
 /turf/open/floor/iron/large,
 /area/awaymission/caves/heretic_laboratory)
 "eW" = (
@@ -1383,6 +1384,10 @@
 	dir = 4
 	},
 /area/awaymission/beach/heretic)
+"hm" = (
+/mob/living/basic/heretic_summon/stalker,
+/turf/open/floor/iron,
+/area/awaymission/caves/heretic_laboratory)
 "ho" = (
 /obj/structure/table/glass,
 /obj/item/stack/medical/gauze,
@@ -1616,6 +1621,7 @@
 /area/awaymission/beach/heretic)
 "ix" = (
 /obj/structure/window/spawner/directional/west,
+/mob/living/basic/heretic_summon/stalker,
 /turf/open/floor/iron/white,
 /area/awaymission/caves/heretic_laboratory)
 "iz" = (
@@ -2691,6 +2697,10 @@
 /obj/machinery/light/small/directional/south,
 /obj/structure/bedsheetbin,
 /turf/open/floor/iron/white/textured_large,
+/area/awaymission/beach/heretic)
+"on" = (
+/mob/living/basic/heretic_summon/stalker,
+/turf/open/floor/wood,
 /area/awaymission/beach/heretic)
 "oo" = (
 /obj/structure/railing{
@@ -5451,6 +5461,10 @@
 /obj/effect/turf_decal/box,
 /turf/open/floor/iron/white/smooth_large,
 /area/awaymission/caves/heretic_laboratory)
+"CF" = (
+/mob/living/basic/heretic_summon/ash_spirit,
+/turf/open/floor/iron/white,
+/area/awaymission/caves/heretic_laboratory)
 "CG" = (
 /obj/effect/turf_decal/tile/yellow/anticorner/contrasted,
 /obj/effect/blessing/invisible,
@@ -5726,6 +5740,10 @@
 	},
 /turf/open/misc/grass/jungle/station,
 /area/awaymission/beach/heretic)
+"Ej" = (
+/mob/living/basic/heretic_summon/raw_prophet,
+/turf/open/floor/iron/white,
+/area/awaymission/caves/heretic_laboratory)
 "Ek" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 1
@@ -8181,6 +8199,7 @@
 /obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
 	dir = 4
 	},
+/mob/living/basic/heretic_summon/stalker,
 /turf/open/floor/iron/large,
 /area/awaymission/caves/heretic_laboratory)
 "QZ" = (
@@ -8729,6 +8748,10 @@
 	},
 /turf/open/floor/asphalt,
 /area/awaymission/beach/heretic)
+"TU" = (
+/mob/living/basic/heretic_summon/ash_spirit,
+/turf/open/floor/iron/large,
+/area/awaymission/caves/heretic_laboratory)
 "TV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
 	dir = 4
@@ -14700,7 +14723,7 @@ KB
 KB
 DT
 Xu
-Xu
+Ej
 KB
 KB
 KB
@@ -15213,7 +15236,7 @@ Xu
 Xu
 KB
 Xu
-Xu
+CF
 Xu
 KB
 Gw
@@ -15697,7 +15720,7 @@ mV
 AO
 uq
 AO
-aE
+TU
 aE
 cq
 JO
@@ -16212,7 +16235,7 @@ aE
 mV
 aE
 jj
-aE
+wt
 aE
 Aq
 KB
@@ -18259,7 +18282,7 @@ KB
 KB
 KB
 mo
-mo
+hm
 oW
 KB
 bq
@@ -38115,7 +38138,7 @@ te
 te
 te
 eh
-PC
+on
 te
 te
 te
@@ -39136,7 +39159,7 @@ hb
 hb
 te
 nT
-nT
+HM
 nT
 te
 te
@@ -39913,7 +39936,7 @@ NX
 NX
 NX
 fh
-PC
+on
 PC
 Rz
 jQ
@@ -44536,7 +44559,7 @@ un
 tJ
 nT
 te
-PC
+on
 PC
 Tm
 te

@@ -1125,6 +1125,10 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/snowdin/post)
+"eq" = (
+/mob/living/basic/trooper/syndicate/ranged/shotgun,
+/turf/open/misc/asteroid/snow,
+/area/awaymission/snowdin/cave)
 "er" = (
 /obj/structure/table,
 /obj/machinery/chem_dispenser/drinks/beer,
@@ -2363,6 +2367,13 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/snowdin/post/garage)
+"iO" = (
+/obj/item/reagent_containers/cup/glass/bottle/beer{
+	list_reagents = null
+	},
+/obj/effect/mob_spawn/corpse/human/syndicatepilot,
+/turf/open/floor/iron/dark,
+/area/awaymission/snowdin/cave)
 "iP" = (
 /obj/machinery/light/directional/north,
 /obj/effect/decal/cleanable/dirt,
@@ -3004,6 +3015,14 @@
 /obj/machinery/space_heater,
 /turf/open/floor/plating,
 /area/awaymission/snowdin/post/garage)
+"le" = (
+/mob/living/basic/trooper/syndicate/ranged/shotgun,
+/turf/open/misc/asteroid/snow{
+	floor_variance = 0;
+	icon_state = "snow_dug";
+	slowdown = 1
+	},
+/area/awaymission/snowdin/cave)
 "lf" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
@@ -5016,7 +5035,7 @@
 /turf/open/floor/engine/cult,
 /area/awaymission/snowdin/post/cavern2)
 "st" = (
-/mob/living/basic/skeleton/ice,
+/mob/living/basic/trooper/syndicate/ranged/smg/pilot,
 /turf/open/misc/asteroid/snow{
 	floor_variance = 0;
 	icon_state = "snow_dug";
@@ -6113,12 +6132,7 @@
 /turf/open/floor/plating/snowed,
 /area/awaymission/snowdin/cave)
 "xU" = (
-/obj/structure/bed{
-	dir = 4
-	},
-/mob/living/basic/skeleton/ice{
-	name = "Privateer Jones"
-	},
+/mob/living/basic/trooper/syndicate/melee/sword/anthro,
 /turf/open/misc/asteroid/snow{
 	floor_variance = 0;
 	icon_state = "snow_dug";
@@ -6280,6 +6294,10 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
+	},
+/obj/structure/spawner/nether{
+	max_mobs = 4;
+	name = "weak netherworld link"
 	},
 /turf/open/floor/iron,
 /area/awaymission/snowdin/post/mining_dock)
@@ -6617,6 +6635,17 @@
 "zN" = (
 /obj/structure/rack,
 /turf/open/floor/plating/snowed,
+/area/awaymission/snowdin/cave)
+"zP" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/mob/living/basic/trooper/syndicate/melee,
+/turf/open/misc/asteroid/snow{
+	floor_variance = 0;
+	icon_state = "snow_dug";
+	slowdown = 1
+	},
 /area/awaymission/snowdin/cave)
 "zQ" = (
 /obj/item/hatchet{
@@ -7943,6 +7972,13 @@
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating/snowed/smoothed,
 /area/awaymission/snowdin/outside)
+"FF" = (
+/obj/structure/spawner/nether{
+	max_mobs = 4;
+	name = "weak netherworld link"
+	},
+/turf/open/misc/asteroid/snow,
+/area/awaymission/snowdin/cave)
 "FI" = (
 /obj/machinery/conveyor{
 	id = "snowdin_belt_mine"
@@ -8467,6 +8503,7 @@
 /area/awaymission/snowdin/post/mining_main/robotics)
 "IB" = (
 /obj/structure/table,
+/obj/item/autosurgeon/syndicate/xray_eyes/single_use,
 /turf/open/floor/iron/white,
 /area/awaymission/snowdin/post/mining_main/robotics)
 "IC" = (
@@ -8796,6 +8833,11 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/snowdin/post/mining_main)
+"Kr" = (
+/obj/structure/table,
+/obj/item/documents/syndicate,
+/turf/open/floor/iron/white,
+/area/awaymission/snowdin/post/mining_main/robotics)
 "Kv" = (
 /obj/structure/fence/corner,
 /turf/open/misc/asteroid/snow,
@@ -9530,6 +9572,14 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/dark,
 /area/awaymission/snowdin/post/research)
+"Oq" = (
+/mob/living/basic/trooper/syndicate/ranged/smg/anthro,
+/turf/open/misc/asteroid/snow{
+	floor_variance = 0;
+	icon_state = "snow_dug";
+	slowdown = 1
+	},
+/area/awaymission/snowdin/cave)
 "Ou" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/misc/ice/smooth,
@@ -9796,6 +9846,10 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/awaymission/snowdin/cave)
+"PT" = (
+/mob/living/basic/bear/snow,
+/turf/open/misc/ice/smooth,
+/area/awaymission/snowdin/cave)
 "PU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
@@ -9934,6 +9988,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/awaymission/snowdin/post/engineering)
+"Qy" = (
+/obj/structure/spawner/nether{
+	max_mobs = 4;
+	name = "weak netherworld link"
+	},
+/turf/open/misc/asteroid/snow,
+/area/awaymission/snowdin/outside)
 "Qz" = (
 /obj/machinery/door/firedoor,
 /obj/structure/holosign/barrier/atmos,
@@ -10372,6 +10433,10 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/engine/o2,
 /area/awaymission/snowdin/post/engineering)
+"SH" = (
+/mob/living/basic/blankbody,
+/turf/open/misc/ice/smooth,
+/area/awaymission/snowdin/cave)
 "SI" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
@@ -10636,6 +10701,16 @@
 /obj/machinery/light/small/broken/directional/east,
 /turf/open/floor/wood,
 /area/awaymission/snowdin/post/dorm)
+"Ul" = (
+/mob/living/basic/bear/snow{
+	desc = "It's a polar bear, in space, but not actually in space. It's actually on a planet. This is a planet.";
+	melee_damage_lower = 10;
+	melee_damage_upper = 20;
+	name = "fat space polar bear";
+	speed = 3
+	},
+/turf/open/floor/plating/snowed,
+/area/awaymission/snowdin/outside)
 "Um" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
@@ -10927,6 +11002,7 @@
 "Wa" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
+/obj/item/crowbar/power/syndicate,
 /turf/open/floor/plating,
 /area/awaymission/snowdin/post/mining_dock)
 "We" = (
@@ -11072,6 +11148,13 @@
 "WN" = (
 /turf/open/misc/asteroid/snow/ice,
 /area/awaymission/snowdin/cave/cavern)
+"WO" = (
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 1
+	},
+/mob/living/basic/migo,
+/turf/open/floor/iron,
+/area/awaymission/snowdin/post/mining_main/mechbay)
 "WR" = (
 /obj/item/shard,
 /turf/open/misc/ice/smooth,
@@ -11216,6 +11299,10 @@
 /obj/structure/fence,
 /turf/open/misc/asteroid/snow,
 /area/awaymission/snowdin/cave)
+"XO" = (
+/mob/living/basic/trooper/syndicate/melee/sword/anthro,
+/turf/open/misc/asteroid/snow,
+/area/awaymission/snowdin/cave)
 "XP" = (
 /obj/effect/spawner/random/structure/crate_abandoned,
 /turf/open/floor/engine/cult{
@@ -11332,6 +11419,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/awaymission/snowdin/post)
+"Yp" = (
+/mob/living/basic/migo,
+/turf/open/floor/plating,
+/area/awaymission/snowdin/post/mining_main/mechbay)
 "Yr" = (
 /obj/item/shard,
 /obj/effect/turf_decal/weather/snow,
@@ -11454,6 +11545,11 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/snowdin/post/gateway)
+"Zi" = (
+/mob/living/basic/blankbody,
+/mob/living/basic/blankbody,
+/turf/open/misc/ice/smooth,
+/area/awaymission/snowdin/cave)
 "Zj" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
@@ -11495,14 +11591,11 @@
 /turf/open/misc/asteroid/snow,
 /area/awaymission/snowdin/post/minipost)
 "Zv" = (
-/mob/living/basic/skeleton/ice{
-	name = "Captain Bones"
+/obj/structure/spawner/nether{
+	max_mobs = 4;
+	name = "weak netherworld link"
 	},
-/turf/open/misc/asteroid/snow{
-	floor_variance = 0;
-	icon_state = "snow_dug";
-	slowdown = 1
-	},
+/turf/open/misc/ice/smooth,
 /area/awaymission/snowdin/cave)
 "Zw" = (
 /obj/structure/chair/stool/directional/south,
@@ -11586,6 +11679,15 @@
 /obj/structure/flora/tree/stump,
 /turf/open/misc/asteroid/snow,
 /area/awaymission/snowdin/outside)
+"ZY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/mob/living/basic/netguardian{
+	name = "guardian prime"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/awaymission/snowdin/cave)
 
 (1,1,1) = {"
 aa
@@ -15302,7 +15404,7 @@ QS
 QS
 QS
 QS
-QS
+PT
 QS
 QS
 aj
@@ -16245,7 +16347,7 @@ hG
 aK
 Zy
 YE
-Zy
+Tf
 Zy
 Cu
 Zy
@@ -16811,7 +16913,7 @@ QS
 QS
 QS
 QS
-QS
+PT
 QS
 aj
 ae
@@ -17080,7 +17182,7 @@ ae
 ae
 aj
 qS
-qS
+FF
 YC
 qS
 qS
@@ -17095,7 +17197,7 @@ YC
 aj
 qS
 qS
-qS
+FF
 aj
 aj
 aj
@@ -17281,7 +17383,7 @@ Zy
 Zy
 Cu
 Zy
-Zy
+Tf
 Zy
 Zy
 Zy
@@ -17345,7 +17447,7 @@ qS
 Vi
 qS
 qS
-qS
+FF
 qS
 Tw
 aj
@@ -19824,7 +19926,7 @@ ae
 Qj
 Zy
 Zy
-Zy
+Tf
 ZX
 aK
 aZ
@@ -20670,7 +20772,7 @@ dX
 te
 te
 te
-te
+Ul
 te
 te
 te
@@ -22390,7 +22492,7 @@ ac
 ac
 ae
 Qj
-Zy
+Tf
 Zy
 Zy
 ar
@@ -23739,7 +23841,7 @@ Zy
 Zy
 Zy
 Zy
-Zy
+Tf
 Zy
 Zy
 Zy
@@ -26178,7 +26280,7 @@ wS
 aj
 aj
 qS
-qS
+Sa
 qS
 qS
 qS
@@ -26630,7 +26732,7 @@ wS
 wS
 an
 ii
-qS
+Sa
 wS
 wS
 yJ
@@ -27698,7 +27800,7 @@ VY
 ai
 wS
 aj
-QS
+Zv
 QS
 qS
 qS
@@ -27940,7 +28042,7 @@ ij
 qS
 qS
 qS
-qS
+Sa
 QS
 QS
 QS
@@ -28829,7 +28931,7 @@ Zy
 Zy
 ZX
 Zy
-Zy
+Tf
 Zy
 Zy
 gN
@@ -29594,7 +29696,7 @@ ae
 Zy
 Zy
 TI
-Zy
+Tf
 Zy
 Zy
 ZX
@@ -32219,7 +32321,7 @@ Zy
 Zy
 Zy
 Zy
-Zy
+Tf
 Zy
 Zy
 Zy
@@ -32599,7 +32701,7 @@ Mq
 fe
 DH
 ka
-Ea
+iO
 PQ
 DH
 Eo
@@ -33884,7 +33986,7 @@ Dr
 DC
 DK
 DC
-DC
+ZY
 DC
 Ej
 Eq
@@ -40162,8 +40264,8 @@ Zy
 TI
 Zy
 Zy
-Zy
-Zy
+Tf
+Tf
 TI
 TI
 Zy
@@ -42284,13 +42386,13 @@ XY
 wm
 ii
 qS
-Pb
+zP
 VQ
 aj
 aj
 aj
 Fv
-RP
+st
 RP
 aj
 aj
@@ -42787,10 +42889,10 @@ ae
 ae
 aj
 SF
-st
 RP
 RP
-xU
+RP
+FC
 aj
 aj
 aj
@@ -42801,13 +42903,13 @@ aj
 qS
 aj
 qS
-qS
+XO
 aj
 RP
 Zw
 CA
 Zw
-RP
+Oq
 OV
 aj
 ae
@@ -42976,7 +43078,7 @@ ae
 ae
 ae
 ae
-Zy
+Qy
 Zy
 Zy
 Zy
@@ -43560,7 +43662,7 @@ ae
 ae
 aj
 RP
-RP
+xU
 RP
 RP
 RP
@@ -43771,7 +43873,7 @@ ae
 ae
 ae
 aj
-QS
+SH
 QS
 QS
 QS
@@ -43817,7 +43919,7 @@ ae
 ae
 aj
 aj
-Zv
+RP
 RP
 RP
 RP
@@ -43833,7 +43935,7 @@ aj
 QS
 qS
 Ps
-RP
+le
 aj
 ae
 ae
@@ -44028,7 +44130,7 @@ ae
 ae
 ae
 aj
-QS
+Zi
 BJ
 QS
 QS
@@ -44285,7 +44387,7 @@ ae
 ae
 ae
 aj
-QS
+SH
 QS
 QS
 QS
@@ -44602,7 +44704,7 @@ qS
 QS
 qS
 qS
-qS
+eq
 Ps
 TZ
 aj
@@ -56799,7 +56901,7 @@ GY
 Xk
 HM
 HM
-IB
+Kr
 IJ
 tj
 tj
@@ -58331,7 +58433,7 @@ WN
 WN
 WN
 XM
-He
+Yp
 Qn
 SO
 Hf
@@ -58582,7 +58684,7 @@ eJ
 Cl
 WN
 WN
-WN
+QP
 WN
 WN
 WN
@@ -58604,7 +58706,7 @@ GN
 la
 He
 ub
-ME
+WO
 Hg
 Hf
 GN
@@ -59867,7 +59969,7 @@ eJ
 eJ
 YO
 WN
-WN
+QP
 WN
 WN
 WN
@@ -59885,7 +59987,7 @@ Hk
 Ik
 GH
 tj
-He
+Yp
 GH
 DM
 Mi
@@ -60365,14 +60467,14 @@ eJ
 eJ
 WN
 WN
-WN
+Sb
 WN
 WN
 WN
 WN
 MU
 WN
-WN
+Sb
 WN
 ge
 ge
@@ -62692,7 +62794,7 @@ fr
 eL
 WN
 WN
-WN
+Sb
 fr
 fr
 WN
@@ -62700,7 +62802,7 @@ WN
 WN
 MZ
 WN
-WN
+QP
 WN
 WN
 Cb
@@ -63184,7 +63286,7 @@ WN
 WN
 eJ
 eJ
-WN
+Ve
 WN
 eJ
 ge
@@ -65257,7 +65359,7 @@ eJ
 eJ
 WN
 WN
-WN
+Sb
 WN
 WN
 eJ

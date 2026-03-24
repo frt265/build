@@ -72,6 +72,32 @@
 /obj/machinery/door/airlock/external/ruin,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav)
+"w" = (
+/obj/effect/spawner/random/engineering/tank,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav)
+"A" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/random/engineering/tool_advanced,
+/obj/effect/spawner/random/engineering/tool_advanced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav)
+"B" = (
+/obj/effect/spawner/random/engineering/canister,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav)
+"M" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/random/engineering/vending_restock,
+/obj/effect/spawner/random/engineering/vending_restock,
+/obj/effect/spawner/random/engineering/vending_restock,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav)
+"U" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/random/exotic/antag_gear,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav)
 
 (1,1,1) = {"
 a
@@ -644,14 +670,14 @@ b
 b
 b
 d
-g
+B
 i
 i
 m
 g
 f
 g
-g
+B
 d
 b
 c
@@ -688,7 +714,7 @@ g
 g
 g
 g
-h
+A
 f
 g
 g
@@ -724,7 +750,7 @@ b
 b
 b
 e
-g
+w
 g
 k
 n
@@ -807,7 +833,7 @@ d
 g
 g
 l
-h
+A
 l
 e
 g
@@ -924,8 +950,8 @@ a
 a
 b
 e
-h
-h
+U
+M
 g
 o
 g
@@ -968,7 +994,7 @@ f
 f
 j
 f
-g
+w
 e
 p
 q
@@ -1006,7 +1032,7 @@ a
 d
 i
 h
-g
+B
 f
 l
 e
